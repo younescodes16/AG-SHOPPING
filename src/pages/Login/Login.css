@@ -1,0 +1,154 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 250, 241);
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../photo/back-login.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .auth-box {
+    
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(37, 37, 37, 0.5);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../photo/back-login.jpg");
+    background-repeat: no-repeat;
+    filter: 5px;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    margin-top: 50px;
+    
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .input-group input,
+  .input-group textarea {
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+    background-color: #eda669;
+  }
+  
+  
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e67e22;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-button:hover {
+    background-color: #9a4800;
+  }
+  
+  .toggle-auth {
+    text-align: center;
+    margin-top: 20px;
+    color: #e67e22;
+    cursor: pointer;
+  }
+  
+  .toggle-auth:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  @media (max-width: 600px) {
+    .auth-box {
+      padding: 20px;
+      box-shadow: none;
+      border: 1px solid #ddd;
+    }
+  
+    .auth-button {
+      font-size: 14px;
+    }
+  
+    .input-group input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .auth-box {
+      max-width: 500px;
+      padding: 30px;
+    }
+  
+    .input-group input {
+      font-size: 15px;
+      padding: 9px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  }
+  
+  
+  @media (min-width: 1025px) {
+    .auth-container {
+      padding: 0;
+    }
+  
+    .auth-box {
+      max-width: 400px;
+      padding: 40px;
+    }
+  
+    .input-group input {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  }
+  
