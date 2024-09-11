@@ -9,7 +9,7 @@ const Login = () => {
   };
 
   return (
-    1
+    
     <div className="auth-container">
       <div className="auth-box">
         <h2>{isSignUp ? 'Sign Up' : 'Sign In'}</h2>
